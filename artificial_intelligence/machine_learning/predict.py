@@ -12,4 +12,5 @@ model.fit(x, y, epochs=500)
 
 output = model.predict([10.0])
 
+print(output)
 assert 52.001 < output[0][0] < 52.009
